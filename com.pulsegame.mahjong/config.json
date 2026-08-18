@@ -5,13 +5,27 @@
   "trigger_strategy": "after_seconds",
   "trigger_clicks_count": 10000,
   "trigger_seconds_delay": 259200,
-  "active_campaigns": [],
+  "active_campaigns": [
+    {
+      "campaign_id": "HJ7uI5vHMN0UuX2oVTeE",
+      "weight": 50,
+      "is_active": true,
+      "schedule_start": "00:00",
+      "schedule_end": "23:59",
+      "open_target_in": "external",
+      "title": "test",
+      "ad_type": "image",
+      "media_url": "https://uam.ac.id/wp-content/uploads/2025/11/image-12.png",
+      "target_url": "https://www.uam.ac.id/2025/12/01/belajar-google-ads-untuk-pemula-lengkap/",
+      "button_text": "test iklan"
+    }
+  ],
   "title": "Mahjong Pulse",
   "event_sdk": {
     "google": {
-      "is_active": false,
-      "is_debug_view_enabled": true,
-      "gtm_is_active": false
+      "is_active": true,
+      "is_debug_view_enabled": false,
+      "gtm_is_active": true
     },
     "meta": {
       "is_active": false,
