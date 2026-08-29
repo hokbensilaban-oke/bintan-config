@@ -7,12 +7,12 @@
   "trigger_seconds_delay": 259200,
   "active_campaigns": [
     {
-      "open_target_in": "external",
       "campaign_id": "HJ7uI5vHMN0UuX2oVTeE",
-      "schedule_end": "23:59",
       "weight": 50,
-      "schedule_start": "00:00",
       "is_active": false,
+      "schedule_start": "00:00",
+      "schedule_end": "23:59",
+      "open_target_in": "external",
       "title": "test",
       "ad_type": "image",
       "media_url": "https://uam.ac.id/wp-content/uploads/2025/11/image-12.png",
@@ -20,6 +20,7 @@
       "button_text": "test iklan"
     }
   ],
+  "icon_url": "https://bintantecno.web.app/ic_brand.png",
   "title": "Mahjong Pulse",
   "event_sdk": {
     "google": {
@@ -40,6 +41,5 @@
       "apple_tiktok_id": "",
       "stage": "sandbox"
     }
-  },
-  "icon_url": "https://bintantecno.web.app/ic_brand.png"
+  }
 }
